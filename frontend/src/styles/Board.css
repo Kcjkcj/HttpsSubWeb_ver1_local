@@ -1,0 +1,92 @@
+/* src/styles/Board.css */
+.board-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .board-header {
+    margin-bottom: 20px;
+  }
+  
+  .header-text {
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .header-text p {
+    margin: 5px 0;
+  }
+  
+  .content-section {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .title-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f0f0f0;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .title-left, .title-center, .title-right {
+    padding: 0 10px;
+  }
+  
+  .post-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-item {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .post-item:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .post-text {
+    color: #444;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  
+  .page-btn {
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .page-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  @media (max-width: 600px) {
+    .board-container {
+      padding: 10px;
+    }
+  
+    .title-bar {
+      font-size: 0.9rem;
+    }
+  
+    .post-item {
+      padding: 10px;
+    }
+  }
+  

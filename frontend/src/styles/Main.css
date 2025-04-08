@@ -1,0 +1,117 @@
+.main-page {
+    padding: 20px;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  
+  .main-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 0;
+  }
+  
+  .header-buttons button {
+    padding: 3px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    margin-top: 2rem;
+  }
+  
+  .works-list {
+    width: 100%;
+  }
+  
+  .works-list h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .add-work-btn {
+    margin-bottom: 1rem;
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .works-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 2fr));
+    gap: 100px;
+    padding: 20px 0;
+  }
+  
+  .work-item {
+    position: relative; /* 부모 요소를 기준으로 자식 요소 배치 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .work-item img {
+    width: 70% !important;
+    height: 100% !important;
+    object-fit: cover;
+    border-radius: 100px;
+  }
+  
+  .work-item h3 {
+    position: absolute;
+    top: 100%; /* 이미지의 중앙에 위치 */
+    left: 50%;
+    transform: translate(-50%, -50%); /* 중앙 정렬 */
+    color: black; /* 텍스트 색상 */
+    font-size: 0.8rem; /* 적절한 크기 설정 */
+    text-shadow: 2px 2px 4px rgba(235, 13, 50, 0.4); /* 가독성을 위한 그림자 추가 */
+    z-index: 1; /* 이미지보다 위에 표시 */
+    overflow: hidden;
+  }
+  
+  
+  .work-item:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 10px;
+  }
+  
+  .pagination .active {
+    font-weight: bold;
+  }
+
+  button {
+    padding:3px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* 기본 파란색 */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* 부드러운 전환 효과 */
+  }
+  
