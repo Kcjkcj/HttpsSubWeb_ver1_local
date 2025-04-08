@@ -1,10 +1,10 @@
-"# HttpsSubWeb_ver1_local" 
+"# SubWeb_ver1_local" 
 
 ✅ 1. 프로젝트 구조
 ## 📦 프로젝트 구조
 
 ```
-HttpsSubWeb_ver1_local/
+SubWeb_ver1_local/
 ├── backend/           # Spring Boot (JWT + OAuth2 + CSRF + REST API)
 ├── frontend/          # React (Axios + JWT Cookie + CSRF 연동)
 ├── nginx/             # Nginx 리버스 프록시 + HTTPS 인증서
