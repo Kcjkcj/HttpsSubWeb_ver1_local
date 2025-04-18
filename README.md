@@ -125,3 +125,6 @@ MySQL
 |--------|---------------------------------------|
 | Kcjkcj | 백엔드 + 프론트엔드 인증 구조 설계 및 개발 |
 
+<h3>Velog 글</h3>
+https://velog.io/@backnewbie/-%EC%9B%B9-%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EC%9D%BC%EA%B3%B1-%EB%B2%88%EC%A7%B8
+
